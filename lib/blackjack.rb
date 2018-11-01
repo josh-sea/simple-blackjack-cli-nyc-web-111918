@@ -29,10 +29,8 @@ end
 
 def initial_round
   # code #initial_round 
-  card_total = 
-  2.times do
-    deal_card
-  end
+  card_total = Array.new
+ 
 end
 
 def hit?
