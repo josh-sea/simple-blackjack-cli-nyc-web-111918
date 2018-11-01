@@ -30,7 +30,8 @@ end
 def initial_round
   # code #initial_round 
   card_total = Array.new
- 
+  2.times do
+    card_total.push(deal_card)
 end
 
 def hit?
